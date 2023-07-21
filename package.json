@@ -1,6 +1,6 @@
 {
 	"name": "svelte-smooth-scroll",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run package",
@@ -24,7 +24,7 @@
 		"!dist/**/*.spec.*"
 	],
 	"peerDependencies": {
-		"svelte": "^4.0.0"
+		"svelte": "^3.59.2"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^2.0.0",
@@ -38,7 +38,6 @@
 		"prettier": "^2.8.0",
 		"prettier-plugin-svelte": "^2.10.1",
 		"publint": "^0.1.9",
-		"svelte": "^3.59.2",
 		"svelte-check": "^3.4.3",
 		"tslib": "^2.4.1",
 		"typescript": "^5.0.0",
